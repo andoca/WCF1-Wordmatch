@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch"><![CDATA[WordMatch]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch.description"><![CDATA[Einstellungen f&uuml;r das WordMatch Plugin - zum Suchen und Ersetzen bzw. Verlinken an diversen Stellen.]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch.rules"><![CDATA[WordMatch Regeln]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch.rules.description"><![CDATA[Gib hier an, welche Begriffe durch was ersetzt oder verlinkt werden sollen.]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch.settings"><![CDATA[WordMatch Einstellungen]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch.settings.description"><![CDATA[Diverse Einstellungen für das Wordmatch Plugin]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch.hooks"><![CDATA[WordMatch Hooks]]></item>
+		<item name="wcf.acp.option.category.de.0xdefec.wordmatch.hooks.description"><![CDATA[Stelle hier ein, an welchen Stellen das WordMatch Plugin greifen soll.]]></item>
+		
+		<item name="wcf.acp.option.WORDMATCH_LIST"><![CDATA[WordMatch Liste]]></item>
+		<item name="wcf.acp.option.WORDMATCH_LIST.description"><![CDATA[Ein Eintrag pro Zeile. Format: <i>suchwort;ersatzwort</i> <br />Verlinkung: <i>suchwort;<b>url:</b>http://www.domain.tld</i><br /> Als Suchwort können auch reguläre Ausdrücke verwendet werden.]]></item>
+		<item name="wcf.acp.option.WORDMATCH_NEW_WINDOW"><![CDATA[Neues Fenster]]></item>
+		<item name="wcf.acp.option.WORDMATCH_NEW_WINDOW.description"><![CDATA[Sollen durch das Wordmatch Plugin erzeugte Links in einem neuen Fenster geöffnet werden?]]></item>
+		<item name="wcf.acp.option.WORDMATCH_WBB"><![CDATA[Forenbeiträge]]></item>
+		<item name="wcf.acp.option.WORDMATCH_WBB.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.WORDMATCH_WBB_FEED"><![CDATA[Forenbeiträge (Feed)]]></item>
+		<item name="wcf.acp.option.WORDMATCH_WBB_FEED.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.WORDMATCH_PM"><![CDATA[Private Nachrichten]]></item>
+		<item name="wcf.acp.option.WORDMATCH_PM.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.WORDMATCH_BLOG"><![CDATA[Persönlicher Blog]]></item>
+		<item name="wcf.acp.option.WORDMATCH_BLOG.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.WORDMATCH_BLOG_FEED"><![CDATA[Persönlicher Blog (Feed)]]></item>
+		<item name="wcf.acp.option.WORDMATCH_BLOG_FEED.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.WORDMATCH_GALLERY"><![CDATA[Persönliche Galerie]]></item>
+		<item name="wcf.acp.option.WORDMATCH_GALLERY.description"><![CDATA[Hier können Suchworte nicht verlinkt werden.]]></item>
+		<item name="wcf.acp.option.WORDMATCH_GALLERY_COMMENTS"><![CDATA[Persönliche Galerie (Kommentare)]]></item>
+		<item name="wcf.acp.option.WORDMATCH_GALLERY_COMMENTS.description"><![CDATA[Hier können Suchworte nicht verlinkt werden.]]></item>
+		<item name="wcf.acp.option.WORDMATCH_GUESTBOOK"><![CDATA[Persönliches Gästebuch]]></item>
+		<item name="wcf.acp.option.WORDMATCH_GUESTBOOK.description"><![CDATA[]]></item>
+	</category>
+</language>

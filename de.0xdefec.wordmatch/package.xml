@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+
+<package name="de.0xdefec.wordmatch">
+	<packageInformation>
+		<packageName><![CDATA[WordMatch]]></packageName>
+		<packageDescription language="de-informal"><![CDATA[Plugin zum Ersetzen von Wörtern in Beiträgen.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<isUnique>0</isUnique>
+		<version>1.3.1 beta 1</version>
+		<date>2012-02-26</date>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author><![CDATA[Andoca Haustier-WG UG (haftungsbeschränkt)]]></author>
+		<authorURL><![CDATA[http://www.andoca.de]]></authorURL>
+	</authorInformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0 RC 3">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<options>options.xml</options>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<options>options.xml</options>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+</package>

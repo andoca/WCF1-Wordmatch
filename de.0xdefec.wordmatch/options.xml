@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="de.0xdefec.wordmatch">
+				<parent>message</parent>
+				<showorder>100</showorder>
+			</category>
+			<category name="de.0xdefec.wordmatch.rules">
+				<parent>de.0xdefec.wordmatch</parent>
+				<showorder>10</showorder>
+			</category>
+			<category name="de.0xdefec.wordmatch.settings">
+				<parent>de.0xdefec.wordmatch</parent>
+				<showorder>05</showorder>
+			</category>
+			<category name="de.0xdefec.wordmatch.hooks">
+				<parent>de.0xdefec.wordmatch</parent>
+				<showorder>20</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="WORDMATCH_LIST">
+				<categoryname>de.0xdefec.wordmatch.rules</categoryname>
+				<optiontype>textarea</optiontype>
+			</option>
+			<option name="WORDMATCH_NEW_WINDOW">
+				<categoryname>de.0xdefec.wordmatch.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="WORDMATCH_WBB">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="WORDMATCH_WBB_FEED">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="WORDMATCH_PM">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_pm</options>
+			</option>
+			<option name="WORDMATCH_BLOG">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_user_blog</options>
+				<enableoptions>WORDMATCH_BLOG_FEED</enableoptions>
+			</option>
+			<option name="WORDMATCH_BLOG_FEED">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="WORDMATCH_GALLERY">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_user_gallery</options>
+				<enableoptions>WORDMATCH_GALLERY_COMMENTS</enableoptions>
+			</option>
+			<option name="WORDMATCH_GALLERY_COMMENTS">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="WORDMATCH_GUESTBOOK">
+				<categoryname>de.0xdefec.wordmatch.hooks</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_user_guestbook</options>
+			</option>
+		</options>
+	</import>
+</data>
